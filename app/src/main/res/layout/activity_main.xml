@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:splitMotionEvents="false"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/ripple"
+            android:foregroundGravity="center"
+            android:onClick="btnClicked"
+            android:textSize="0sp" />
+    </LinearLayout>
+</LinearLayout>
